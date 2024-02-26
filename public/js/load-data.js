@@ -30,12 +30,4 @@
   }
 } */
 
-export async function loadData(path) {
-  try {
-    const response = await fetch(path);
-    const data = await response.json();
-    return data
-  } catch (error) {
-    console.error("Errore nel caricamento dei dati", error);
-  }
-}
+
