@@ -1,0 +1,822 @@
+{
+  "name": "deities",
+  "children": [
+    {
+      "name": "god",
+      "children": [
+        {
+          "name": "rustic",
+          "children": [
+            {
+              "name": "Acis",
+              "sex": "M",
+              "popularity": 1,
+              "description": "river god (potamoi; \u03c0\u03bf\u03c4\u03b1\u03bc\u03bf\u03af)"
+            },
+            {
+              "name": "Pan",
+              "sex": "M",
+              "popularity": 3,
+              "description": "god of shepherds, pastures, and fertility"
+            }
+          ]
+        },
+        {
+          "name": "primordial",
+          "children": [
+            {
+              "name": "Aether",
+              "sex": "U",
+              "popularity": 1,
+              "description": " god of light and the upper atmosphere"
+            },
+            {
+              "name": "Chaos",
+              "sex": "F",
+              "popularity": 3,
+              "description": " personification of nothingness from which all of existence sprang"
+            },
+            {
+              "name": "Cronos",
+              "sex": "M",
+              "popularity": 1,
+              "description": " god of empirical time, sometimes equated with aion"
+            },
+            {
+              "name": "Erebus",
+              "sex": "M",
+              "popularity": 0,
+              "description": " god of darkness and shadow"
+            },
+            {
+              "name": "Eros",
+              "sex": "M",
+              "popularity": 3,
+              "description": " god of love and attraction"
+            },
+            {
+              "name": "Gaea",
+              "sex": "F",
+              "popularity": 0,
+              "description": "was the primordial earth or mother goddess who governed the universe before the titans existed"
+            },
+            {
+              "name": "Hemera",
+              "sex": "F",
+              "popularity": 1,
+              "description": " goddess of day"
+            },
+            {
+              "name": "Nemesis",
+              "sex": "F",
+              "popularity": 3,
+              "description": " goddess of retribution"
+            },
+            {
+              "name": "Nyx",
+              "sex": "F",
+              "popularity": 3,
+              "description": " goddess of night"
+            },
+            {
+              "name": "Pontus",
+              "sex": "M",
+              "popularity": 1,
+              "description": " god of the sea, father of the fish and other sea creatures"
+            },
+            {
+              "name": "Thanatos",
+              "sex": "M",
+              "popularity": 0,
+              "description": "god of death"
+            },
+            {
+              "name": "Uranus",
+              "sex": "M",
+              "popularity": 1,
+              "description": " god of the heavens (father sky); father of the titans"
+            }
+          ]
+        },
+        {
+          "name": "nymph",
+          "children": [
+            {
+              "name": "Aethra",
+              "sex": "F",
+              "popularity": 0,
+              "description": "one of the oceanids, the 3000 daughters of oceanus and tethys"
+            },
+            {
+              "name": "Agave",
+              "sex": "F",
+              "popularity": 2,
+              "description": "one of the fifty nereids, sea-nymph"
+            },
+            {
+              "name": "Ambrosia",
+              "sex": "F",
+              "popularity": 2,
+              "description": "a wood nymph, one of the three or five hyades, when she died she transformed into a vine"
+            },
+            {
+              "name": "Clymene",
+              "sex": "F",
+              "popularity": 0,
+              "description": "the wife of the titan iapetus, one of the 3,000 oceanids"
+            },
+            {
+              "name": "Doris",
+              "sex": "F",
+              "popularity": 3,
+              "description": "she was a sea goddess, one of the 3,000 Oceanids, daughters of the titans oceanus and tethys"
+            },
+            {
+              "name": "Dryope",
+              "sex": "F",
+              "popularity": 0,
+              "description": "was a nymph of mount kyllene who was the mother by hermes of the goat-legged god pan. her father dryopos oak-face\" was the craggy"
+            },
+            {
+              "name": "Erythea",
+              "sex": "F",
+              "popularity": 1,
+              "description": "one of the hesperides, the nymphs of evening and golden light of sunsets, who were the daughters of the evening\" or \"nymphs of the west\""
+            },
+            {
+              "name": "Eudora",
+              "sex": "F",
+              "popularity": 1,
+              "description": "was one of the hyades, the nymphs associated with the configuration of stars"
+            },
+            {
+              "name": "Galatea",
+              "sex": "F",
+              "popularity": 0,
+              "description": "a sea-nymph, one of the fifty nereids (daughters of nereus)"
+            },
+            {
+              "name": "Hesperia",
+              "sex": "F",
+              "popularity": 1,
+              "description": "one of the hesperides, nymphs of the evening and daughters of atlas"
+            },
+            {
+              "name": "Io",
+              "sex": "F",
+              "popularity": 3,
+              "description": "a numph, priestess of hera, turned into a heifer by zeus to protect her from hera's jealousy"
+            },
+            {
+              "name": "Melia",
+              "sex": "F",
+              "popularity": 2,
+              "description": "a nymph associated with ash trees, daughter of uranus and gaea (earth)"
+            },
+            {
+              "name": "Nereus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "sea nymph and  old man of the sea, and the god of the seas rich bounty of fish"
+            },
+            {
+              "name": "Perse",
+              "sex": "F",
+              "popularity": 2,
+              "description": "one of the oceanids, daughters of oceanus and tethys"
+            },
+            {
+              "name": "Phyto",
+              "sex": "F",
+              "popularity": 2,
+              "description": "a naiad nymph,one of the hesperides, associated with plants and vegetation"
+            },
+            {
+              "name": "Pleione",
+              "sex": "F",
+              "popularity": 0,
+              "description": "an oceanid nymph, wife of atlas, and mother of the pleiades"
+            },
+            {
+              "name": "Proto",
+              "sex": "F",
+              "popularity": 3,
+              "description": "the nereid of the first or maiden voyage and one of the fifty marine-nymph"
+            },
+            {
+              "name": "Symaethis",
+              "sex": "F",
+              "popularity": 0,
+              "description": "was the naiad-nymph of the river symaithos, in sicily. she was loved by the god pan"
+            }
+          ]
+        },
+        {
+          "name": "sea",
+          "children": [
+            {
+              "name": "Amphitrite",
+              "sex": "F",
+              "popularity": 0,
+              "description": "sea goddess and consort of poseidon"
+            },
+            {
+              "name": "Eurybia",
+              "sex": "F",
+              "popularity": 0,
+              "description": "described as having a heart of flint within her, she is an older, relatively minor deity"
+            },
+            {
+              "name": "Thaumas",
+              "sex": "M",
+              "popularity": 0,
+              "description": "god of the wonders of the sea"
+            },
+            {
+              "name": "Triton",
+              "sex": "M",
+              "popularity": 3,
+              "description": "fish-tailed son and herald of poseidon"
+            }
+          ]
+        },
+        {
+          "name": "olympian",
+          "children": [
+            {
+              "name": "Aphrodite",
+              "sex": "F",
+              "popularity": 2,
+              "description": "goddess of beauty, love, desire, and pleasure"
+            },
+            {
+              "name": "Apollo",
+              "sex": "M",
+              "popularity": 3,
+              "description": "god of music, arts, knowledge, healing, plague, prophecy, poetry, manly beauty, and archery"
+            },
+            {
+              "name": "Ares",
+              "sex": "M",
+              "popularity": 3,
+              "description": "god of courage, war, bloodshed, and violence"
+            },
+            {
+              "name": "Artemis",
+              "sex": "M",
+              "popularity": 2,
+              "description": "virgin goddess of the hunt, wilderness, animals, the moon and young girls"
+            },
+            {
+              "name": "Demeter",
+              "sex": "F",
+              "popularity": 1,
+              "description": "goddess of grain, agriculture, harvest, growth, and nourishment"
+            },
+            {
+              "name": "Dionysus",
+              "sex": "M",
+              "popularity": 1,
+              "description": "god of wine, fruitfulness, parties, festivals, madness, chaos, drunkenness, vegetation, ecstasy, and the theater"
+            },
+            {
+              "name": "Hades",
+              "sex": "M",
+              "popularity": 2,
+              "description": "god and king of the underworld and the dead"
+            },
+            {
+              "name": "Hera",
+              "sex": "F",
+              "popularity": 2,
+              "description": "queen of the gods, and goddess of marriage, women, childbirth, heirs, kings, and empires"
+            },
+            {
+              "name": "Hermes",
+              "sex": "M",
+              "popularity": 3,
+              "description": "god of boundaries, travel, communication, trade, language, thieves and writing"
+            },
+            {
+              "name": "Hestia",
+              "sex": "F",
+              "popularity": 1,
+              "description": "virgin goddess of the hearth, home, and chastity"
+            },
+            {
+              "name": "Poseidon",
+              "sex": "M",
+              "popularity": 2,
+              "description": "god of the sea, rivers, floods, droughts, and earthquakes"
+            },
+            {
+              "name": "Zeus",
+              "sex": "M",
+              "popularity": 3,
+              "description": "king of the gods, ruler of mount olympus, and god of the sky, weather, thunder, lightning, law, order, and justice"
+            }
+          ]
+        },
+        {
+          "name": "other",
+          "children": [
+            {
+              "name": "Arion",
+              "sex": "U",
+              "popularity": 2,
+              "description": "is a divinely-bred, fabulously fast, black-maned horse, given to heracles "
+            },
+            {
+              "name": "Circe",
+              "sex": "F",
+              "popularity": 1,
+              "description": "goddess-witch of aeaea"
+            },
+            {
+              "name": "Hebe",
+              "sex": "F",
+              "popularity": 2,
+              "description": "goddess of youth and cup-bearer to the olympians"
+            },
+            {
+              "name": "Latramys",
+              "sex": "M",
+              "popularity": 2,
+              "description": "son of the wine god dionysus and his wife ariadne"
+            },
+            {
+              "name": "Pasiphae",
+              "sex": "F",
+              "popularity": 0,
+              "description": "daughter of helios, wife of king minos, and mother of the minotaur"
+            },
+            {
+              "name": "Thalia",
+              "sex": "F",
+              "popularity": 2,
+              "description": "goddess of festive celebrations and rich and luxurious banquets (charites; \u03c7\u03ac\u03c1\u03b9\u03c4\u03b5\u03c2)"
+            }
+          ]
+        },
+        {
+          "name": "muse",
+          "children": [
+            {
+              "name": "Calliope",
+              "sex": "F",
+              "popularity": 1,
+              "description": "muse of epic poetry"
+            },
+            {
+              "name": "Clio",
+              "sex": "F",
+              "popularity": 3,
+              "description": "muse of history"
+            },
+            {
+              "name": "Urania",
+              "sex": "F",
+              "popularity": 1,
+              "description": "muse of astronomy"
+            }
+          ]
+        },
+        {
+          "name": "chthonic",
+          "children": [
+            {
+              "name": "Charon",
+              "sex": "M",
+              "popularity": 1,
+              "description": "ferryman of hades"
+            },
+            {
+              "name": "Minos",
+              "sex": "M",
+              "popularity": 1,
+              "description": "former mortal king of crete and judge of the final vote"
+            }
+          ]
+        },
+        {
+          "name": "sky",
+          "children": [
+            {
+              "name": "Electra",
+              "sex": "F",
+              "popularity": 3,
+              "description": "goddess of the star cluster pleiades and were associated with rain (pleiades; \u03c0\u03bb\u03b5\u03b9\u03ac\u03b4\u03b5\u03c2)"
+            },
+            {
+              "name": "Iris",
+              "sex": "F",
+              "popularity": 3,
+              "description": "goddess of the rainbow and divine messenger"
+            },
+            {
+              "name": "Maia",
+              "sex": "F",
+              "popularity": 3,
+              "description": "goddess of the star cluster pleiades and were associated with rain (pleiades; \u03c0\u03bb\u03b5\u03b9\u03ac\u03b4\u03b5\u03c2)"
+            }
+          ]
+        },
+        {
+          "name": "demigod",
+          "children": [
+            {
+              "name": "Heracles",
+              "sex": "M",
+              "popularity": 1,
+              "description": "son of zeus and alcmena, a renowned hero, known for accomplishing the twelve labors as penance for the murder of his family."
+            },
+            {
+              "name": "Perseus",
+              "sex": "M",
+              "popularity": 1,
+              "description": "son of zeus and danae, slayer of the gorgon medusa and rescuer of andromeda"
+            }
+          ]
+        },
+        {
+          "name": "river",
+          "children": [
+            {
+              "name": "Inachus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "a river god, father of io and phoroneus"
+            }
+          ]
+        },
+        {
+          "name": "agriculture",
+          "children": [
+            {
+              "name": "Persephone",
+              "sex": "F",
+              "popularity": 1,
+              "description": "queen of the underworld, wife of hades and goddess of spring growth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "human",
+      "children": [
+        {
+          "name": "king",
+          "children": [
+            {
+              "name": "Acrisius",
+              "sex": "M",
+              "popularity": 0,
+              "description": "king of argos, father of Danae and grandfather of the famous demi-god perseus"
+            },
+            {
+              "name": "Agenor",
+              "sex": "M",
+              "popularity": 0,
+              "description": "phoenician king of tyre or sidon"
+            },
+            {
+              "name": "Diomedes",
+              "sex": "M",
+              "popularity": 1,
+              "description": "he was the ruler of the warlike tribe of bistones and is known for his man-eating horses, which Heracles stole for his twelve labours, slaying diomedes in the process"
+            },
+            {
+              "name": "Menelaus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "king of sparta, husband of helen, and a prominent figure in the trojan war"
+            },
+            {
+              "name": "Oeagrus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "king of thrace, father of orpheus with the muse calliope"
+            },
+            {
+              "name": "Romulus",
+              "sex": "M",
+              "popularity": 3,
+              "description": "founder and first king of rome, twin brother of remus"
+            },
+            {
+              "name": "Thestius",
+              "sex": "M",
+              "popularity": 0,
+              "description": "was a legendary founder and king of thespiae, boeotia"
+            },
+            {
+              "name": "Tyndareus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "king of Sparta, was the husband of leda, with whom he had a number of children, including castor and clytemnestra"
+            }
+          ]
+        },
+        {
+          "name": "other",
+          "children": [
+            {
+              "name": "Alcmene",
+              "sex": "F",
+              "popularity": 0,
+              "description": "wife of Amphitryon,mainly known for being the mother of the demigod hero heracles"
+            },
+            {
+              "name": "Castor",
+              "sex": "M",
+              "popularity": 2,
+              "description": "was a demigod, one of the dioscuri, a pair of twin brothers. unlike his brother, he is a mortal due to their fathers different backgrounds"
+            },
+            {
+              "name": "Orpheus",
+              "sex": "M",
+              "popularity": 2,
+              "description": "legendary musician, poet, and prophet in greek mythology"
+            },
+            {
+              "name": "Remus",
+              "sex": "M",
+              "popularity": 2,
+              "description": "twin brother of romulus, the legendary co-founder of rome"
+            }
+          ]
+        },
+        {
+          "name": "princess",
+          "children": [
+            {
+              "name": "Ariadne",
+              "sex": "F",
+              "popularity": 1,
+              "description": "was a cretan princess,known for helping theseus escape the minotaur and being abandoned by him on the island of naxos."
+            },
+            {
+              "name": "Cyrene",
+              "sex": "F",
+              "popularity": 0,
+              "description": "a mortal princess, daughter of king hypseus, king of the lapiths. she was abducted by apollo"
+            },
+            {
+              "name": "Danae",
+              "sex": "F",
+              "popularity": 1,
+              "description": "was an argive princess and mother of the hero perseus by zeus, who came to her in the form of golden rain"
+            },
+            {
+              "name": "Europa",
+              "sex": "F",
+              "popularity": 3,
+              "description": "was a phoenician princess from tyre and the mother of king minos of crete. the continent of europe was named after her."
+            },
+            {
+              "name": "Helen",
+              "sex": "F",
+              "popularity": 3,
+              "description": "the most beautiful woman of greece and the indirect cause of the trojan war. she was daughter of zeus and leda"
+            },
+            {
+              "name": "Hermione",
+              "sex": "F",
+              "popularity": 2,
+              "description": "daughter of menelaus and helen, princess of sparta"
+            },
+            {
+              "name": "Leda",
+              "sex": "F",
+              "popularity": 2,
+              "description": "queen of sparta, mother of helen of troy by zeus who seduced her when he took the form of a swan"
+            },
+            {
+              "name": "Semele",
+              "sex": "F",
+              "popularity": 0,
+              "description": "was a princess of thebes, seduced by zeus in the guise of an eagle, she gave birth to dionysus"
+            },
+            {
+              "name": "Telephassa",
+              "sex": "F",
+              "popularity": 0,
+              "description": "queen of phoenicia, daughter of the god Nilus"
+            }
+          ]
+        },
+        {
+          "name": "prince",
+          "children": [
+            {
+              "name": "Phoenix",
+              "sex": "M",
+              "popularity": 3,
+              "description": "was the eponym of Phoenicia who together with his brothers were tasked to find their abducted sister europa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "titan",
+      "children": [
+        {
+          "name": "other titan",
+          "children": [
+            {
+              "name": "Atlas",
+              "sex": "M",
+              "popularity": 3,
+              "description": "titan forced to carry the heavens upon his shoulders by zeus"
+            },
+            {
+              "name": "Dione",
+              "sex": "F",
+              "popularity": 2,
+              "description": "titaness of the oracle of dodona"
+            },
+            {
+              "name": "Eos",
+              "sex": "F",
+              "popularity": 3,
+              "description": "titaness of the dawn"
+            },
+            {
+              "name": "Helios",
+              "sex": "M",
+              "popularity": 2,
+              "description": "titan of the sun and guardian of oaths"
+            },
+            {
+              "name": "Leto",
+              "sex": "F",
+              "popularity": 3,
+              "description": "titaness of motherhood and mother of the twin olympians, artemis and apollo"
+            },
+            {
+              "name": "Metis",
+              "sex": "U",
+              "popularity": 1,
+              "description": "titaness of good counsel, advice, planning, cunning, craftiness, and wisdom"
+            },
+            {
+              "name": "Pallas",
+              "sex": "M",
+              "popularity": 2,
+              "description": "titan of warcraft"
+            },
+            {
+              "name": "Perses",
+              "sex": "F",
+              "popularity": 1,
+              "description": "titan of destruction"
+            },
+            {
+              "name": "Prometheus",
+              "sex": "M",
+              "popularity": 2,
+              "description": "titan of forethought and crafty counsel, and creator of mankind"
+            },
+            {
+              "name": "Selene",
+              "sex": "F",
+              "popularity": 2,
+              "description": "titaness of the moon"
+            },
+            {
+              "name": "Styx",
+              "sex": "F",
+              "popularity": 1,
+              "description": "titaness of the underworld river styx and personification of hatred"
+            }
+          ]
+        },
+        {
+          "name": "twelve titan",
+          "children": [
+            {
+              "name": "Coeus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "titan of intellect and the axis of heaven around which the constellations revolved"
+            },
+            {
+              "name": "Creus",
+              "sex": "M",
+              "popularity": 0,
+              "description": " least individualized of the twelve titans, he is the father of astraeus, pallas, and perses"
+            },
+            {
+              "name": "Hyperion",
+              "sex": "M",
+              "popularity": 2,
+              "description": "titan of light"
+            },
+            {
+              "name": "Iapetus",
+              "sex": "M",
+              "popularity": 0,
+              "description": "titan of mortality and father of prometheus, epimetheus, menoetius, and atlas"
+            },
+            {
+              "name": "Mnemnosyne",
+              "sex": "F",
+              "popularity": 0,
+              "description": "titaness of memory and mother of the muses with zeus"
+            },
+            {
+              "name": "Oceanus",
+              "sex": "M",
+              "popularity": 1,
+              "description": "titan of the all-encircling river oceans around the earth, the fount of all the earths fresh-water"
+            },
+            {
+              "name": "Phoebe",
+              "sex": "F",
+              "popularity": 3,
+              "description": "titaness of the bright intellect and prophecy, and consort of koios"
+            },
+            {
+              "name": "Rhea",
+              "sex": "F",
+              "popularity": 2,
+              "description": "titaness of fertility, motherhood and the mountain wilds"
+            },
+            {
+              "name": "Tethys",
+              "sex": "F",
+              "popularity": 0,
+              "description": "titaness of fresh-water, and the mother of the rivers, springs, streams, fountains, and clouds"
+            },
+            {
+              "name": "Thea",
+              "sex": "F",
+              "popularity": 3,
+              "description": "was one of the titans and a deity of immense beauty and brightness"
+            },
+            {
+              "name": "Themis",
+              "sex": "F",
+              "popularity": 1,
+              "description": "titaness of divine law and order"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "personification",
+      "children": [
+        {
+          "name": "personification",
+          "children": [
+            {
+              "name": "Bia",
+              "sex": "U",
+              "popularity": 3,
+              "description": " personification of force and raw energy"
+            },
+            {
+              "name": "Cer",
+              "sex": "F",
+              "popularity": 3,
+              "description": "they were the goddesses who personified violent death and who were drawn to bloody deaths on battlefields."
+            },
+            {
+              "name": "Dike",
+              "sex": "F",
+              "popularity": 2,
+              "description": "spirit of justice, fair judgement, and the rights established by custom and law"
+            },
+            {
+              "name": "Eris",
+              "sex": "F",
+              "popularity": 2,
+              "description": "spirit of strife, discord, contention, and rivalry"
+            },
+            {
+              "name": "Harmonia",
+              "sex": "F",
+              "popularity": 2,
+              "description": "goddess of harmony and concord"
+            },
+            {
+              "name": "Moros",
+              "sex": "U",
+              "popularity": 1,
+              "description": "spirit of doom"
+            },
+            {
+              "name": "Nike",
+              "sex": "F",
+              "popularity": 3,
+              "description": "goddess of victory"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
