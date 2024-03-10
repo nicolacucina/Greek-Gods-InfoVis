@@ -1,4 +1,3 @@
-//import { select } from "d3-selection";
 const createLegend = () => {
   // Main Types
   const mainTypeLegend = d3.select(".legend-main-types")

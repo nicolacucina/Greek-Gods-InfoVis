@@ -1,6 +1,3 @@
-//il precedente: import { scaleRadial, scaleOrdinal, scaleLinear } from "d3-scale";
-//import { scaleRadial, scaleOrdinal } from "/node_modules/d3-scale/dist/d3-scale.js";
-
 const getRadius = (maxLines, lines) => {
   const radialScale = d3.scaleRadial()
     .domain([0, maxLines])
