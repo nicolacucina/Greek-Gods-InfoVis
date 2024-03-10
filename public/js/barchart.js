@@ -1,30 +1,23 @@
 async function drawBarChart(){
-    // Append a SVG container
     const svg = d3
     .select(".bar-chart-container")
     .append("svg")
     .attr("viewBox", "0 0 600 700");
 
-    d3.csv("/public/data/greek-gods-popularity.csv", (d) => {
+    d3.csv("./public/data/greek-gods-popularity.csv", (d) => {
         return {
             name: d.name,
             popularity: +d.popularity,
         };
     }).then((data) => {
-    //console.log(data);
     
     data.sort((a, b) => b.popularity - a.popularity);
     //take the 30 most popular
     data = data.slice(0, 30);
 
     d3.max(data, (d) => d.popularity);
-    //console.log(d3.max(data, (d) => d.popularity));  
     d3.min(data, (d) => d.popularity);
-    //console.log(d3.min(data, (d) => d.popularity));
     d3.extent(data, (d) => d.popularity);
-    //console.log(d3.extent(data, (d) => d.popularity));
-
-    //data.sort((a, b) => b.popularity - a.popularity);
     
     createViz(data);
     });
@@ -42,6 +35,7 @@ async function drawBarChart(){
         .data(data)
         .join("g")
         .attr("transform", (d) => `translate(0, ${yScale(d.name)})`);
+    
     //bars
     barAndLabel
         .append("rect")
@@ -50,6 +44,7 @@ async function drawBarChart(){
         .attr("x", 80)
         .attr("y", 0)
         .attr("fill", (d) => (d.name === "Zeus" ? "orange" : "teal"));
+    
     //names
     barAndLabel
         .append("text")
@@ -59,6 +54,7 @@ async function drawBarChart(){
         .attr("text-anchor", "end")
         .style("font-family", "sans-serif")
         .style("font-size", "16px");
+    
     //popularity number
     barAndLabel
         .append("text")
@@ -67,6 +63,7 @@ async function drawBarChart(){
         .attr("y", 12)
         .style("font-family", "sans-serif")
         .style("font-size", "9px");
+    
     //separator
     svg
         .append("line")
