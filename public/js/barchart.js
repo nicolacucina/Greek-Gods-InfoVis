@@ -1,4 +1,4 @@
-export async function drawBarChart(){
+async function drawBarChart(){
     // Append a SVG container
     const svg = d3
     .select(".bar-chart-container")

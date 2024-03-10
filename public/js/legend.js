@@ -1,8 +1,5 @@
 //import { select } from "d3-selection";
-import { main_types, link_types } from "../js/helper.js";
-import { getRadius } from "../js/scales.js";
-
-export const createLegend = () => {
+const createLegend = () => {
   // Main Types
   const mainTypeLegend = d3.select(".legend-main-types")
     .append("ul")

@@ -1,4 +1,4 @@
-export async function drawFamilyTree() {
+async function drawFamilyTree() {
   d3.json("./public/data/family-tree-dataset.json", (d) => {
   }).then((treeData) => {
     createViz(treeData);

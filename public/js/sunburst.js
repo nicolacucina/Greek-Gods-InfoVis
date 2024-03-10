@@ -1,5 +1,4 @@
-export async function drawSunburstChart() {
-
+async function drawSunburstChart() {
     d3.json("./public/data/greek-gods-hierarchy.json", (d) => {
     }).then((sunBurstData) => {
       createSunBurst(sunBurstData);

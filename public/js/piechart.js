@@ -1,4 +1,4 @@
-export async function drawPieChart() {
+async function drawPieChart() {
   // Caricamento dei dati
   d3.json("./public/data/greek-gods.json", (d) => {
   }).then((pieChartData) => {
