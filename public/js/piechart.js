@@ -1,18 +1,14 @@
 async function drawPieChart() {
-  // Caricamento dei dati
-  d3.json("./public/data/greek-gods.json", (d) => {
+  d3.json("./public/data/greek-gods-sex.json", (d) => {
   }).then((pieChartData) => {
     createPieChart(pieChartData);
   });
   const createPieChart = (pieChartData) => {
-    const nodes = pieChartData.nodes;
-    // Calcolo del numero di divinità maschili e femminili
-    const total = nodes.length;
-    const males = nodes.filter(d => d.sex === "M").length;
-    const females = nodes.filter(d => d.sex === "F").length;
+    const total = pieChartData.length;
+    const males = pieChartData.filter(d => d.sex === "M").length;
+    const females = pieChartData.filter(d => d.sex === "F").length;
     const unknown = total - males - females;
 
-    // Dati per il pie chart
     const data = [
       { name: "Male", value: males },
       { name: "Female", value: females },
@@ -24,7 +20,6 @@ async function drawPieChart() {
     const radius = Math.min(width, height) / 2;
     console.log(radius);
     
-    // Creazione del pie chart
     const pie = d3.pie().sort(null).value(d => d.value);
     const arcs = pie(data);
     

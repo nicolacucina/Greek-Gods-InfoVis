@@ -2,17 +2,17 @@ import csv
 import json
 
 csv_path = 'public/data/greek-gods.csv'
-output_path = 'public/data/greek-gods-popularity.json'
+output_path = 'public/data/greek-gods-sex.json'
 result = []
 
 with open(csv_path, 'r', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=';')
     for row in reader:
         name = row['NAME']
-        popularity = row['POPULARITY']
+        sex = row['SEX']
         item = {
             'name': name,
-            'popularity': popularity
+            'sex': sex
         }
         result.append(item)
 

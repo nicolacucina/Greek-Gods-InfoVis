@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Acis",
+    "sex": "M"
+  },
+  {
+    "name": "Acrisius",
+    "sex": "M"
+  },
+  {
+    "name": "Aether",
+    "sex": "U"
+  },
+  {
+    "name": "Aethra",
+    "sex": "F"
+  },
+  {
+    "name": "Agave",
+    "sex": "F"
+  },
+  {
+    "name": "Agenor",
+    "sex": "M"
+  },
+  {
+    "name": "Alcmene",
+    "sex": "F"
+  },
+  {
+    "name": "Ambrosia",
+    "sex": "F"
+  },
+  {
+    "name": "Amphitrite",
+    "sex": "F"
+  },
+  {
+    "name": "Aphrodite",
+    "sex": "F"
+  },
+  {
+    "name": "Apollo",
+    "sex": "M"
+  },
+  {
+    "name": "Ares",
+    "sex": "M"
+  },
+  {
+    "name": "Ariadne",
+    "sex": "F"
+  },
+  {
+    "name": "Arion",
+    "sex": "U"
+  },
+  {
+    "name": "Artemis",
+    "sex": "M"
+  },
+  {
+    "name": "Atlas",
+    "sex": "M"
+  },
+  {
+    "name": "Bia",
+    "sex": "U"
+  },
+  {
+    "name": "Calliope",
+    "sex": "F"
+  },
+  {
+    "name": "Castor",
+    "sex": "M"
+  },
+  {
+    "name": "Cer",
+    "sex": "F"
+  },
+  {
+    "name": "Chaos",
+    "sex": "F"
+  },
+  {
+    "name": "Charon",
+    "sex": "M"
+  },
+  {
+    "name": "Circe",
+    "sex": "F"
+  },
+  {
+    "name": "Clio",
+    "sex": "F"
+  },
+  {
+    "name": "Clymene",
+    "sex": "F"
+  },
+  {
+    "name": "Coeus",
+    "sex": "M"
+  },
+  {
+    "name": "Creus",
+    "sex": "M"
+  },
+  {
+    "name": "Cronos",
+    "sex": "M"
+  },
+  {
+    "name": "Cyrene",
+    "sex": "F"
+  },
+  {
+    "name": "Danae",
+    "sex": "F"
+  },
+  {
+    "name": "Demeter",
+    "sex": "F"
+  },
+  {
+    "name": "Dike",
+    "sex": "F"
+  },
+  {
+    "name": "Diomedes",
+    "sex": "M"
+  },
+  {
+    "name": "Dione",
+    "sex": "F"
+  },
+  {
+    "name": "Dionysus",
+    "sex": "M"
+  },
+  {
+    "name": "Doris",
+    "sex": "F"
+  },
+  {
+    "name": "Dryope",
+    "sex": "F"
+  },
+  {
+    "name": "Electra",
+    "sex": "F"
+  },
+  {
+    "name": "Eos",
+    "sex": "F"
+  },
+  {
+    "name": "Erebus",
+    "sex": "M"
+  },
+  {
+    "name": "Eris",
+    "sex": "F"
+  },
+  {
+    "name": "Eros",
+    "sex": "M"
+  },
+  {
+    "name": "Erythea",
+    "sex": "F"
+  },
+  {
+    "name": "Eudora",
+    "sex": "F"
+  },
+  {
+    "name": "Europa",
+    "sex": "F"
+  },
+  {
+    "name": "Eurybia",
+    "sex": "F"
+  },
+  {
+    "name": "Gaea",
+    "sex": "F"
+  },
+  {
+    "name": "Galatea",
+    "sex": "F"
+  },
+  {
+    "name": "Hades",
+    "sex": "M"
+  },
+  {
+    "name": "Harmonia",
+    "sex": "F"
+  },
+  {
+    "name": "Hebe",
+    "sex": "F"
+  },
+  {
+    "name": "Helen",
+    "sex": "F"
+  },
+  {
+    "name": "Helios",
+    "sex": "M"
+  },
+  {
+    "name": "Hemera",
+    "sex": "F"
+  },
+  {
+    "name": "Hera",
+    "sex": "F"
+  },
+  {
+    "name": "Heracles",
+    "sex": "M"
+  },
+  {
+    "name": "Hermes",
+    "sex": "M"
+  },
+  {
+    "name": "Hermione",
+    "sex": "F"
+  },
+  {
+    "name": "Hesperia",
+    "sex": "F"
+  },
+  {
+    "name": "Hestia",
+    "sex": "F"
+  },
+  {
+    "name": "Hyperion",
+    "sex": "M"
+  },
+  {
+    "name": "Iapetus",
+    "sex": "M"
+  },
+  {
+    "name": "Inachus",
+    "sex": "M"
+  },
+  {
+    "name": "Io",
+    "sex": "F"
+  },
+  {
+    "name": "Iris",
+    "sex": "F"
+  },
+  {
+    "name": "Latramys",
+    "sex": "M"
+  },
+  {
+    "name": "Leda",
+    "sex": "F"
+  },
+  {
+    "name": "Leto",
+    "sex": "F"
+  },
+  {
+    "name": "Maia",
+    "sex": "F"
+  },
+  {
+    "name": "Melia",
+    "sex": "F"
+  },
+  {
+    "name": "Menelaus",
+    "sex": "M"
+  },
+  {
+    "name": "Metis",
+    "sex": "U"
+  },
+  {
+    "name": "Minos",
+    "sex": "M"
+  },
+  {
+    "name": "Mnemnosyne",
+    "sex": "F"
+  },
+  {
+    "name": "Moros",
+    "sex": "U"
+  },
+  {
+    "name": "Nemesis",
+    "sex": "F"
+  },
+  {
+    "name": "Nereus",
+    "sex": "M"
+  },
+  {
+    "name": "Nike",
+    "sex": "F"
+  },
+  {
+    "name": "Nyx",
+    "sex": "F"
+  },
+  {
+    "name": "Oceanus",
+    "sex": "M"
+  },
+  {
+    "name": "Oeagrus",
+    "sex": "M"
+  },
+  {
+    "name": "Orpheus",
+    "sex": "M"
+  },
+  {
+    "name": "Pallas",
+    "sex": "M"
+  },
+  {
+    "name": "Pan",
+    "sex": "M"
+  },
+  {
+    "name": "Pasiphae",
+    "sex": "F"
+  },
+  {
+    "name": "Perse",
+    "sex": "F"
+  },
+  {
+    "name": "Persephone",
+    "sex": "F"
+  },
+  {
+    "name": "Perses",
+    "sex": "F"
+  },
+  {
+    "name": "Perseus",
+    "sex": "M"
+  },
+  {
+    "name": "Phoebe",
+    "sex": "F"
+  },
+  {
+    "name": "Phoenix",
+    "sex": "M"
+  },
+  {
+    "name": "Phyto",
+    "sex": "F"
+  },
+  {
+    "name": "Pleione",
+    "sex": "F"
+  },
+  {
+    "name": "Pontus",
+    "sex": "M"
+  },
+  {
+    "name": "Poseidon",
+    "sex": "M"
+  },
+  {
+    "name": "Prometheus",
+    "sex": "M"
+  },
+  {
+    "name": "Proto",
+    "sex": "F"
+  },
+  {
+    "name": "Remus",
+    "sex": "M"
+  },
+  {
+    "name": "Rhea",
+    "sex": "F"
+  },
+  {
+    "name": "Romulus",
+    "sex": "M"
+  },
+  {
+    "name": "Selene",
+    "sex": "F"
+  },
+  {
+    "name": "Semele",
+    "sex": "F"
+  },
+  {
+    "name": "Styx",
+    "sex": "F"
+  },
+  {
+    "name": "Symaethis",
+    "sex": "F"
+  },
+  {
+    "name": "Telephassa",
+    "sex": "F"
+  },
+  {
+    "name": "Tethys",
+    "sex": "F"
+  },
+  {
+    "name": "Thalia",
+    "sex": "F"
+  },
+  {
+    "name": "Thanatos",
+    "sex": "M"
+  },
+  {
+    "name": "Thaumas",
+    "sex": "M"
+  },
+  {
+    "name": "Thea",
+    "sex": "F"
+  },
+  {
+    "name": "Themis",
+    "sex": "F"
+  },
+  {
+    "name": "Thestius",
+    "sex": "M"
+  },
+  {
+    "name": "Triton",
+    "sex": "M"
+  },
+  {
+    "name": "Tyndareus",
+    "sex": "M"
+  },
+  {
+    "name": "Urania",
+    "sex": "F"
+  },
+  {
+    "name": "Uranus",
+    "sex": "M"
+  },
+  {
+    "name": "Zeus",
+    "sex": "M"
+  }
+]
