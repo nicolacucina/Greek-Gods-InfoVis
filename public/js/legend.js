@@ -63,25 +63,25 @@ const createLegend = () => {
     .append("text")
       .attr("x", gap*2)
       .attr("y", 9)
-      .text("0 - 1.080.000");
+      .text("0 - 1.080 K");
   
   popularitylabels
     .append("text")
       .attr("x", gap*2)
       .attr("y", 9+gap)
-      .text("1.080.000 - 2.740.000");
+      .text("1.080 K- 2.740 K");
   
   popularitylabels
     .append("text")
       .attr("x", gap*2)
       .attr("y", 13+gap*2)
-      .text("2.740.000 - 8.690.000");
+      .text("2.740 K - 8.690 K");
   
   popularitylabels
     .append("text")
       .attr("x", gap*2)
       .attr("y", gap*4)
-      .text("8.690.000 - 196.000.000");
+      .text("8.690 K - 196.000 K");
 
   // Link Types
   const linkTypeLegend = d3.select(".legend-link-types")
