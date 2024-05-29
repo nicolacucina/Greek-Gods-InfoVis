@@ -12,7 +12,6 @@ const popularity = [
   { type : "3", radius : 13, order : 4},
 ];
 
-
 const link_types = [
   { type: "Male Child", color: "#00b4d8", order: 1 },
   { type: "Female Child", color: "#ff70a6", order: 2 },
