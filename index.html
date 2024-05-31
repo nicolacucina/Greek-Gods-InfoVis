@@ -4,15 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greek Family Tree</title>
-    <link rel="icon" type="image/x-icon" href="/public/img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/public/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/visualization.css">
+    <link rel="icon" type="image/x-icon" href="./public/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./public/css/base.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/visualization.css">
   </head>
   <body>
-    
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://unpkg.com/d3-dag@1.1.0"></script>
-    <script type="module" src="/public/js/main.js"></script>
 
     <div class="container">
 
@@ -48,12 +46,12 @@
                   <div class="legend-main-types"></div>
                 </div>
                 <div class="legend-section">
+                  <h3>Popularity</h3>
+                  <div class="legend-popularity"></div>
+                </div>
+                <div class="legend-section">
                   <h3>Link Types</h3>
                   <div class="legend-link-types"></div>
-                </div>
-                <div class="legend-section" style="display: none">
-                  <h3>Number of lines in the play</h3>
-                  <div class="legend-radius"></div>
                 </div>
               </div>
             </div>
@@ -93,21 +91,6 @@
                 </p>
                 <div id="sunburst-chart"></div>
               </div>
-
-              <!-- FORCE-DIRECTED LAYOUT -->
-              <!-- <div class="row">
-                <h2>Force-directed Layout</h2>
-                <p class="intro" style="text-align: justify">
-                  In this network visualization, each character is represented
-                  by a circle. The size of the circles is proportional to the
-                  character's popularity. When two characters share a parental
-                  relationship, we draw a link between them. The stronger the
-                  link, the closer the nodes are. Clicking on a sector allows
-                  exploration of deity details and navigation within the Greek
-                  deity hierarchy.
-                </p>
-                <div id="force-directed-graph"></div>
-              </div> -->
 
               <!-- BAR CHART / PIE CHART -->
               <div class="row">
@@ -156,12 +139,6 @@
         <ul>
           <li>
             <a
-              href="https://patrickbrianmooney.nfshost.com/~patrick/greek-myth/greek-genealogy.html"
-              >Contest dataset: The Greek Mythic Genealogy Project</a
-            >
-          </li>
-          <li>
-            <a
               href="https://mozart.diei.unipg.it/gdcontest/contest2016/topics.html"
               >GD Contest 2016</a
             >
@@ -172,8 +149,22 @@
               >Greek Mythology Wiki</a
             >
           </li>
+          <li>
+            <a
+              href="https://github.com/katkaypettitt/greek-gods"
+              >List of Greek Gods and Goddesses</a
+            >
+          </li>
         </ul>
       </div>
     </div>
+    <script src="./public/js/helper.js"></script>
+    <script src="./public/js/scales.js"></script>
+    <script src="./public/js/legend.js"></script>
+    <script src="./public/js/familyTree.js"></script>
+    <script src="./public/js/sunburst.js"></script>
+    <script src="./public/js/piechart.js"></script>
+    <script src="./public/js/barchart.js"></script>
+    <script src="./public/js/main.js"></script>
   </body>
 </html>

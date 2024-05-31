@@ -1,6 +1,6 @@
 import json
 
-with open('data/greek-gods.json', 'r') as f:
+with open('pucblic/data/greek-gods.json', 'r') as f:
     data = json.load(f)
 
 nodes = data['nodes']

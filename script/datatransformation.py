@@ -6,10 +6,10 @@ import os
 current_working_directory = os.getcwd()
 
 # Costruzione dei percorsi completi utilizzando os.path.join
-enriched_csv_path = os.path.join(current_working_directory, 'data', 'greek-gods-enrichment.csv')
-csv_path = os.path.join(current_working_directory, 'data', 'greek-gods.csv')
-json_path = os.path.join(current_working_directory, 'data', 'greek-gods.json')
-missing_nodes_path = os.path.join(current_working_directory, 'data', 'missing-nodes.txt')
+enriched_csv_path = os.path.join(current_working_directory, 'public', 'data', 'greek-gods-enrichment.csv')
+csv_path = os.path.join(current_working_directory, 'public', 'data', 'greek-gods.csv')
+json_path = os.path.join(current_working_directory, 'public', 'data', 'greek-gods.json')
+missing_nodes_path = os.path.join(current_working_directory, 'public', 'data', 'missing-nodes.txt')
 
 # Dizionario per memorizzare i sub-type associati a ciascuna main type
 sub_types_dict = {}

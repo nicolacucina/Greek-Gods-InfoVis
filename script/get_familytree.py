@@ -6,7 +6,7 @@ import os
 current_working_directory = os.getcwd()
 
 ### CREAZIONE DEL DATASET CON SOLI CAMPI "id" E "parentIds" ###
-data_path = os.path.join(current_working_directory, 'data', 'greek-gods.csv')
+data_path = os.path.join(current_working_directory, 'public', 'data', 'greek-gods.csv')
 
 nodes = []
 with open(data_path, 'r', encoding='utf-8') as csvfile:
